@@ -18,7 +18,7 @@ export const path = {
         images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,webp}`,
         svg: `${srcFolder}/img/**/*.svg`,
         scss: `${srcFolder}/scss/style.scss`,
-        html: `${srcFolder}/*.html`,
+        html: `${srcFolder}/*.pug`,
         files: `${srcFolder}/files/**/*.*`,
         svgicons: `${srcFolder}/svgicons/*.svg`
     },
@@ -26,7 +26,7 @@ export const path = {
         js: `${srcFolder}/js/**/*.js`,
         images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,webp,svg}`,
         scss: `${srcFolder}/scss/**/*.scss`,
-        html: `${srcFolder}/**/*.html`,
+        html: `${srcFolder}/**/*.pug`,
         files: `${srcFolder}/files/**/*.*`,
         svgicons: `${srcFolder}/svgicons/*.svg`
     },
