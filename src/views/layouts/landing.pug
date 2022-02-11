@@ -1,0 +1,18 @@
+block variables
+doctype
+html.page(lang='ru')
+    block head
+        head
+            meta(charset="UTF-8")
+            meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+            meta(http-equiv="X-UA-Compatible", content="ie=edge")
+            link(rel="stylesheet", href='css/style.min.css')
+            block style
+            title=title
+    body.page-body
+        include ../blocks/organisms/header-landing/header-landing
+        main.main-content
+            block content
+        include ../blocks/organisms/footer/footer
+        script(src='js/app.min.js')
+        block scripts

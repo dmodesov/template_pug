@@ -16,7 +16,7 @@ export const html = () => {
             // Показывать в терменале какой файл обработан
             verbose: true
         }))
-        .pipe(app.plugins.replace('../img', 'img'))
+        .pipe(app.plugins.replace('/src/assets/img', 'img'))
         .pipe(
             app.plugins.if(
                 app.isBuild,

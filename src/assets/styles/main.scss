@@ -1,0 +1,13 @@
+@import "variables.scss";
+@import "normalize.scss";
+@import "fonts.scss";
+@import "global.scss";
+// Шапка
+@import "../../views/blocks/organisms/header/header";
+@import "../../views/blocks/organisms/header-landing/header-landing";
+
+//section-info
+@import "../../views/blocks/organisms/section/section-info/section-info";
+
+// Футер
+@import "../../views/blocks/organisms/footer/footer";

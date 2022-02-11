@@ -31,7 +31,7 @@ export const scss = () => {
                 groupCssMediaQueries()
             )
         )
-        .pipe(app.plugins.replace('../../img', '../img'))
+        .pipe(app.plugins.replace('/src/assets/img', '../img'))
         .pipe(
             app.plugins.if(
                 app.isBuild,
@@ -64,6 +64,7 @@ export const scss = () => {
             )
         )
         .pipe(rename({
+            basename: "style",
             extname: ".min.css"
         }))
         .pipe(

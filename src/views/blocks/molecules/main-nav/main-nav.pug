@@ -1,0 +1,9 @@
+include main-nav-data
+nav.main-nav
+    for group in mainNav
+        .main-nav__group
+            .main-nav__title=group.nameGroup
+            ul.main-nav__list
+                for link in group.links
+                    li.main-nav__item
+                        a.main-nav__link(href=link.link)=link.name

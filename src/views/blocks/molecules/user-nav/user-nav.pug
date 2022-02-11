@@ -1,0 +1,6 @@
+include user-nav-data
+nav.user-nav
+    ul.user-nav__list
+        for link in userNav
+            li.main-nav__item
+                a.main-nav__link(href=link.link)=link.name
